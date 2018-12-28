@@ -1,13 +1,13 @@
 /**
  * Provides access to basic micro:bit functionality.
  */
-//% color=190 weight=100 icon="\uf1ec" block="Basic Blocks"
+//% color=190 weight=100 icon="\uf1ec" block="Scale HX711"
 namespace hx711{
     /**
      * This is a statement block
      */
     //% block
-    export function statement() {
+    export function tara() {
 
     }
 
@@ -15,7 +15,7 @@ namespace hx711{
      * A function that returns a non-void argument generates a reporter block (oval shape).
      */
     //% block
-    export function expression(): number {
+    export function measure(): number {
         return 0;
     }
 }
